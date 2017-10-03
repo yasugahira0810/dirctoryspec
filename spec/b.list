@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 2 root root 4096 10月  3 14:26 172.17.0.3
+-rw-r--r-- 1 root root 1138 10月  3 14:26 a.list
+-rw-r--r-- 1 root root    0 10月  3 14:38 b.list
+-rw-r--r-- 1 root root  122 10月  3 14:36 shapell.rb
+-rw-r--r-- 1 root root  702 10月  3 14:15 spec_helper.rb

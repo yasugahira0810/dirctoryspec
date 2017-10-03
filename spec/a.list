@@ -1,0 +1,22 @@
+total 64
+-rw-r--r--   1 root root     0 10月  3 14:26 a.list
+-rw-r--r--   1 root root 15712 12月 14  2016 anaconda-post.log
+lrwxrwxrwx   1 root root     7 12月 14  2016 bin -> usr/bin
+drwxr-xr-x   5 root root   340 10月  3 14:04 dev
+drwxr-xr-x  64 root root  4096 10月  3 14:06 etc
+drwxr-xr-x   2 root root  4096 11月  5  2016 home
+lrwxrwxrwx   1 root root     7 12月 14  2016 lib -> usr/lib
+lrwxrwxrwx   1 root root     9 12月 14  2016 lib64 -> usr/lib64
+drwx------   2 root root  4096 12月 14  2016 lost+found
+drwxr-xr-x   2 root root  4096 11月  5  2016 media
+drwxr-xr-x   2 root root  4096 11月  5  2016 mnt
+drwxr-xr-x   2 root root  4096 11月  5  2016 opt
+dr-xr-xr-x 137 root root     0 10月  3 14:04 proc
+dr-xr-x---   6 root root  4096 10月  3 14:26 root
+drwxr-xr-x  10 root root  4096 10月  3 14:06 run
+lrwxrwxrwx   1 root root     8 12月 14  2016 sbin -> usr/sbin
+drwxr-xr-x   2 root root  4096 11月  5  2016 srv
+dr-xr-xr-x  13 root root     0 10月  3 14:21 sys
+drwxrwxrwt   7 root root  4096 10月  3 14:26 tmp
+drwxr-xr-x  38 root root  4096 10月  3 14:08 usr
+drwxr-xr-x  37 root root  4096 10月  3 14:06 var
