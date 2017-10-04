@@ -1,8 +1,11 @@
+debug_flag=1
+dir_info = {}
 Dir.glob('./*.list').each do |file|
   File.open(file) do |f|
     f.each_line do |line|
       arr = line.split
-      mode = { :user => arr[0][1..3], :group => arr[0][4..6], :ohters => arr[0][7..9] }
+
+      mode = { :owner => arr[0][1..3], :group => arr[0][4..6], :ohters => arr[0][7..9] }
       mode.each do |k, v|
         case v
         when 'rwx' then mode[k] = 7
@@ -15,7 +18,13 @@ Dir.glob('./*.list').each do |file|
         when '---' then mode[k] = 0
         end
       end
-      puts(mode)
+      owner = arr[2]
+      group = arr[3]
+      full_path = arr[8]
+
+      dir_info[full_path] = { :owner => owner, :group => group, :mode => mode}
     end
   end
 end
+
+p dir_info
